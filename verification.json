@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "sourceWorkbook": "Updated Model_06_08.2026.xlsx",
+  "password": "Success2026",
+  "siteUrl": "https://bishmalovich-web.github.io/BIO4PACK-By-TIPA-Laminates/",
+  "features": [
+    "QR in header",
+    "PWA install support",
+    "password screen",
+    "dynamic pricing",
+    "additional Gross Profit %",
+    "blue-grey inputs",
+    "confidential notice"
+  ],
+  "filesToUpload": [
+    "index.html",
+    "image.png",
+    "icon-192.png",
+    "icon-512.png",
+    "manifest.json",
+    "sw.js",
+    ".nojekyll",
+    "README.txt",
+    "verification.json",
+    "Updated Model_06_08.2026.xlsx"
+  ]
+}
