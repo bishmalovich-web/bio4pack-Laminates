@@ -1,2 +1,1 @@
-v2
-Upload ALL files from this ZIP directly to the GitHub repository root. Password: Success2026. Includes QR, Install/PWA, logo, source workbook, dynamic pricing, blue-grey UI, additional Gross Profit %, and confidential notice. Recommended GitHub Pages setting: Deploy from branch -> main -> /(root).
+B4PACK updated final package. Upload all files directly to the GitHub repository root. Password: Success2026. Shipping is limited to Europe to Europe. Validation footer comment removed. Thickness options are loaded from the uploaded Excel HELPER sheet.

@@ -1,12 +1,11 @@
 {
-  "name": "BIO4PACK Laminates Pricing",
-  "short_name": "BIO4PACK",
+  "name": "B4PACK Updated Final",
+  "short_name": "B4PACK",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#261810",
-  "description": "Confidential BIO4PACK internal pricing calculator",
   "icons": [
     {
       "src": "icon-192.png",
