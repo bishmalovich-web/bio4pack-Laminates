@@ -63,5 +63,12 @@
     ]
   },
   "qrTarget": "https://bishmalovich-web.github.io/bio4pack-Laminates/",
-  "qrDecodeCheck": "PASS"
+  "qrDecodeCheck": "PASS",
+  "brightModeFix": "Explicit light-mode text colors added for calculator panel, cards, values, final price, compare view, and readonly fields.",
+  "notPrintedLogic": "When Printing is Not Printed, colors and designs are disabled and ignored; calculation uses noPrintSellKg baseline and does not apply color/design/printing factor.",
+  "notPrintedRatioFallback": 0.8501359601372095,
+  "explicitNoPrintedBaselines": {
+    "821M": 14.47323007834502
+  },
+  "compareBrightMode": "Compare side-by-side panels now have explicit light-mode backgrounds, borders, and dark text."
 }
