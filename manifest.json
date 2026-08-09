@@ -1,6 +1,6 @@
 {
-  "name": "B4PACK Pricing",
-  "short_name": "B4PACK",
+  "name": "BIO4PACK Pricing",
+  "short_name": "BIO4PACK",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
