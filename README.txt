@@ -1,3 +1,1 @@
-B4PACK final package. Upload all files directly to GitHub root. Password: Success2026. Dark/Bright mode restored. Supplier and Shipment fields removed from UI. QR is local qr-code.png.
-Pricing note added above MOQ: EXW Europe basis and standard commercial assumptions.
-Logo fix: header uses full BIO4PACK logo, object-fit contain, no crop/stretch. Header title: BIO4PACK Laminates Pricing.
+BIO4PACK updated compare calculator. Upload all files to GitHub root. Password: Success2026. Supplier is hidden and internal baseline uses Marma assumptions. Shipment is hidden and pricing basis is EXW Europe. Use +Compare to show/hide Calculator 2.

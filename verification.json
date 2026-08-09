@@ -1,40 +1,39 @@
 {
   "status": "PASS",
-  "darkBrightMode": "Restored with localStorage persistence",
-  "visibilityCheck": "Supplier and Shipment fields removed from UI",
-  "pricingBaseline": "Internal baseline only, no supplier selection exposed",
-  "qrTarget": "https://bishmalovich-web.github.io/bio4pack-Laminates/",
-  "qrDecodeCheck": "PASS",
-  "calculationCheck": [
+  "sourceWorkbook": "Updated Model_06_08.2026.xlsx",
+  "changes": [
+    "Input mode disables IMP width/length unless By Imp",
+    "Input Quantity label displays units by active mode",
+    "+Compare toggles Calculator 2 side-by-side",
+    "Printing dropdown uses Printed/Not Printed",
+    "Not Printed disables colors/designs and removes printing factor from web-app calculation",
+    "Pricing basis note retained above MOQ",
+    "BIO4PACK title and logo retained"
+  ],
+  "validation": [
     {
       "calculator": 1,
-      "laminate": "618 W",
-      "length": 16391.768,
-      "kg": 1000,
-      "sellKg": 18.394
+      "laminate": "821M",
+      "excelDefaultMode": "By Imp",
+      "excelDefaultPrinting": "Printed",
+      "excelSellKg": 17.024606,
+      "excelLength": 4655.0,
+      "excelKg": 397.503781
     },
     {
       "calculator": 2,
       "laminate": "618",
-      "length": 32000,
-      "kg": 983.998,
-      "sellKg": 14.381
-    },
-    {
-      "calculator": 3,
-      "laminate": "821M",
-      "length": 4987.5,
-      "kg": 397.504,
-      "sellKg": 17.028
-    },
-    {
-      "specific": "819",
-      "length": 11651,
-      "kg": 1000,
-      "sellKg": 14.04
+      "excelDefaultMode": "By Length",
+      "excelDefaultPrinting": "Printed",
+      "excelSellKg": 14.381295,
+      "excelLength": 32000.0,
+      "excelKg": 988.9984
     }
   ],
   "thicknessOptions": {
+    "821M": [
+      79.0
+    ],
     "618": [
       51,
       56,
@@ -54,21 +53,15 @@
       106
     ],
     "428": [
-      79
+      79.0
     ],
     "819": [
-      121
+      121.0
     ],
     "823": [
-      121
-    ],
-    "821M": [
-      79
+      121.0
     ]
   },
-  "pricingNote": "Added above MOQ: All prices are based on EXW Europe terms and standard Bio4Pack commercial assumptions.",
-  "branding": "BIO4PACK Laminates Pricing",
-  "logoFix": "Uses uploaded BIO4PACK logo image.png with wide header container, object-fit: contain, no cropping or stretching",
-  "supplierVisibleCheck": "Supplier field is not present in UI",
-  "shipmentVisibleCheck": "Shipment field is not present in UI"
+  "qrTarget": "https://bishmalovich-web.github.io/bio4pack-Laminates/",
+  "qrDecodeCheck": "PASS"
 }
