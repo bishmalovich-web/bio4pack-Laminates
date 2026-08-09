@@ -67,8 +67,8 @@
     ]
   },
   "pricingNote": "Added above MOQ: All prices are based on EXW Europe terms and standard Bio4Pack commercial assumptions.",
-  "branding": "Header title updated to BIO4PACK Laminates Pricing",
-  "logoRendering": "Header logo uses fixed container and object-fit: contain to avoid distortion",
-  "supplierVisibleCheck": "Supplier field is not present in the UI",
-  "shipmentVisibleCheck": "Shipment field is not present in the UI"
+  "branding": "BIO4PACK Laminates Pricing",
+  "logoFix": "Uses uploaded BIO4PACK logo image.png with wide header container, object-fit: contain, no cropping or stretching",
+  "supplierVisibleCheck": "Supplier field is not present in UI",
+  "shipmentVisibleCheck": "Shipment field is not present in UI"
 }
