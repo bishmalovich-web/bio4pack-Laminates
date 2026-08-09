@@ -71,7 +71,8 @@
     "821M": 14.47323007834502
   },
   "compareBrightMode": "Compare side-by-side panels now have explicit light-mode backgrounds, borders, and dark text.",
-  "passwordEye": "Added show/hide password eye button on login screen.",
-  "mobileCompare": "Portrait mobile forces Calculator 1 only and hides +Compare; landscape/mobile-wide shows +Compare and can display Calculator 2 side by side.",
-  "cacheVersion": "bio4pack-compare-mobile-eye-v3"
+  "passwordEye": "Replaced emoji eye with mobile-safe Show/Hide button using click and touchend handlers.",
+  "mobileCompare": "Narrow mobile width under 720px forces single calculator and hides Compare. Landscape/wide mobile 720px+ shows Compare.",
+  "cacheVersion": "bio4pack-mobile-safe-v4",
+  "cellphoneSymbols": "Removed emoji/special icons from all field labels for mobile compatibility."
 }
