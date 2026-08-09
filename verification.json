@@ -1,7 +1,8 @@
 {
   "status": "PASS",
   "darkBrightMode": "Restored with localStorage persistence",
-  "supplier": "Fixed internally as Marma, hidden from UI",
+  "visibilityCheck": "Supplier and Shipment fields removed from UI",
+  "pricingBaseline": "Internal baseline only, no supplier selection exposed",
   "qrTarget": "https://bishmalovich-web.github.io/bio4pack-Laminates/",
   "qrDecodeCheck": "PASS",
   "calculationCheck": [
@@ -64,5 +65,6 @@
     "821M": [
       79
     ]
-  }
+  },
+  "pricingNote": "Added above MOQ: All prices are based on EXW Europe terms and standard Bio4Pack commercial assumptions."
 }
