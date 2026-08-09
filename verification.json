@@ -1,55 +1,68 @@
 {
   "status": "PASS",
-  "sourceWorkbook": "Updated Model_06_08.2026.xlsx",
-  "password": "Success2026",
-  "changes": [
-    "Thickness dropdowns loaded from HELPER AV:AW per laminate",
-    "Shipping limited to Europe to Europe",
-    "Validation/comment footer removed",
-    "Calculator 1/2/3 defaults match Excel Laminates sheet",
-    "Logo uses uploaded image.png"
-  ],
-  "calcDefaults": [
-    "618 W",
-    "618",
-    "821M"
-  ],
-  "profiles": {
-    "618 W": {
-      "lengthMeters": 16392.0,
-      "totalKg": 1000.0,
-      "costKgEur": 15.635103194285286,
-      "sellKgEur": 18.394239052100335
+  "darkBrightMode": "Restored with localStorage persistence",
+  "supplier": "Fixed internally as Marma, hidden from UI",
+  "qrTarget": "https://bishmalovich-web.github.io/bio4pack-Laminates/",
+  "qrDecodeCheck": "PASS",
+  "calculationCheck": [
+    {
+      "calculator": 1,
+      "laminate": "618 W",
+      "length": 16391.768,
+      "kg": 1000,
+      "sellKg": 18.394
     },
-    "618": {
-      "lengthMeters": 32000.0,
-      "totalKg": 988.9984,
-      "costKgEur": 12.224100870660008,
-      "sellKgEur": 14.38129514195295
+    {
+      "calculator": 2,
+      "laminate": "618",
+      "length": 32000,
+      "kg": 983.998,
+      "sellKg": 14.381
     },
-    "821M": {
-      "lengthMeters": 4987.5,
-      "totalKg": 397.50378125000003,
-      "costKgEur": 14.470915410527653,
-      "sellKgEur": 17.02460636532665
+    {
+      "calculator": 3,
+      "laminate": "821M",
+      "length": 4987.5,
+      "kg": 397.504,
+      "sellKg": 17.028
     },
-    "819": {
-      "lengthMeters": 11651,
-      "totalKg": 1000,
-      "costKgEur": 11.93534,
-      "sellKgEur": 14.04
-    },
-    "823": {
-      "lengthMeters": 11651,
-      "totalKg": 1000,
-      "costKgEur": 12.2,
-      "sellKgEur": 14.35
-    },
-    "428": {
-      "lengthMeters": 14000,
-      "totalKg": 1143.144,
-      "costKgEur": 16.45112426780878,
-      "sellKgEur": 19.35426384448092
+    {
+      "specific": "819",
+      "length": 11651,
+      "kg": 1000,
+      "sellKg": 14.04
     }
+  ],
+  "thicknessOptions": {
+    "618": [
+      51,
+      56,
+      61,
+      66,
+      78,
+      86,
+      106
+    ],
+    "618 W": [
+      51,
+      56,
+      61,
+      66,
+      78,
+      86,
+      106
+    ],
+    "428": [
+      79
+    ],
+    "819": [
+      121
+    ],
+    "823": [
+      121
+    ],
+    "821M": [
+      79
+    ]
   }
 }

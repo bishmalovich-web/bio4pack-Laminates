@@ -1,11 +1,11 @@
 {
-  "name": "B4PACK Updated Final",
+  "name": "B4PACK Pricing",
   "short_name": "B4PACK",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#0f172a",
-  "theme_color": "#261810",
+  "background_color": "#06101f",
+  "theme_color": "#102033",
   "icons": [
     {
       "src": "icon-192.png",

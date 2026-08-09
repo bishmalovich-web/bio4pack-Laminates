@@ -1,1 +1,1 @@
-B4PACK updated final package. Upload all files directly to the GitHub repository root. Password: Success2026. Shipping is limited to Europe to Europe. Validation footer comment removed. Thickness options are loaded from the uploaded Excel HELPER sheet.
+B4PACK final package. Upload all files directly to GitHub root. Password: Success2026. Dark/Bright mode restored and persists in browser. Supplier is fixed internally as Marma. QR is local qr-code.png.
