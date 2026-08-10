@@ -1,15 +1,12 @@
 {
-  "status": "V12 fresh deploy package",
-  "manualInputsUse": "type=text + inputmode=decimal, no numeric arrows/spinners",
-  "loginFixes": [
-    "full-width unlock button",
-    "enter key unlock",
-    "focused password field",
-    "larger aligned login layout"
+  "status": "V13 stable typing and show/hide password fixed",
+  "criticalFixes": [
+    "Show/Hide password button added",
+    "Manual fields no longer re-render on each keystroke",
+    "Width of Reel and Input Quantity can be typed continuously",
+    "No type=number inputs",
+    "Outputs update without stealing focus"
   ],
-  "fixedScenario": "618 W 78 width 420 Not Printed By Length 18150 -> Sell KG 11.86, Meter 0.507, B4P 507",
-  "cacheName": "bio4pack-v12-fresh-deploy-no-cache",
-  "buildStamp": "BIO4PACK_V12_FRESH_DEPLOY_NO_CACHE",
-  "loginExpected": "Login screen includes Fresh deploy V12 text and full-width Unlock Calculator button.",
-  "important": "Upload every file from this zip to GitHub root, replacing old files."
+  "cacheName": "bio4pack-v13-stable-typing-show-password",
+  "fixedScenario": "618 W 78 width 420 Not Printed By Length 18150 -> Sell KG 11.86, Meter 0.507, B4P 507"
 }

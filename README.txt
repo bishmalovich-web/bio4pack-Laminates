@@ -1,1 +1,1 @@
-BIO4PACK V12 fresh deploy package. Upload every file to GitHub root and replace existing files. Expected cache: bio4pack-v12-fresh-deploy-no-cache. Login screen shows Fresh deploy V12. Inputs use text fields, no number arrows. Password: Success2026.
+BIO4PACK V13 - stable typing + show/hide password. Upload all files to GitHub root. This fixes one-number-at-a-time typing by updating results without re-rendering the form. Password Success2026. Clear site data/PWA after upload.
