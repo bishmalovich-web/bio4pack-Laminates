@@ -1,11 +1,15 @@
 {
-  "status": "V11 login UI fixed and text inputs retained",
-  "manualInputsUse": "type=text + inputmode=decimal, no arrows/spinners",
+  "status": "V12 fresh deploy package",
+  "manualInputsUse": "type=text + inputmode=decimal, no numeric arrows/spinners",
   "loginFixes": [
     "full-width unlock button",
     "enter key unlock",
     "focused password field",
     "larger aligned login layout"
   ],
-  "fixedScenario": "618 W 78 width 420 Not Printed By Length 18150 -> Sell KG 11.86, Meter 0.507, B4P 507"
+  "fixedScenario": "618 W 78 width 420 Not Printed By Length 18150 -> Sell KG 11.86, Meter 0.507, B4P 507",
+  "cacheName": "bio4pack-v12-fresh-deploy-no-cache",
+  "buildStamp": "BIO4PACK_V12_FRESH_DEPLOY_NO_CACHE",
+  "loginExpected": "Login screen includes Fresh deploy V12 text and full-width Unlock Calculator button.",
+  "important": "Upload every file from this zip to GitHub root, replacing old files."
 }
