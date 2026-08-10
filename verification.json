@@ -1,78 +1,25 @@
 {
   "status": "PASS",
-  "sourceWorkbook": "Updated Model_06_08.2026.xlsx",
   "changes": [
-    "Input mode disables IMP width/length unless By Imp",
-    "Input Quantity label displays units by active mode",
-    "+Compare toggles Calculator 2 side-by-side",
-    "Printing dropdown uses Printed/Not Printed",
-    "Not Printed disables colors/designs and removes printing factor from web-app calculation",
-    "Pricing basis note retained above MOQ",
-    "BIO4PACK title and logo retained"
+    "Landscape/wide screen Compare uses side-by-side grid from 720px and above",
+    "Calculator panels visually distinct: calculator 1 teal/blue and calculator 2 orange",
+    "Calculator titles changed to Calculator 1 and Calculator 2 only",
+    "B4P per 1000 meter fixed to Meter EUR x 1000 for every mode, including By Imp",
+    "Supplier and Shipment hidden",
+    "Password Show/Hide retained"
   ],
-  "validation": [
-    {
-      "calculator": 1,
-      "laminate": "821M",
-      "excelDefaultMode": "By Imp",
-      "excelDefaultPrinting": "Printed",
-      "excelSellKg": 17.024606,
-      "excelLength": 4655.0,
-      "excelKg": 397.503781
+  "examples": {
+    "821M_default": {
+      "sellKg": 17.02460636532665,
+      "kgPerMeter": 0.08539286385606874,
+      "meterEUR": 1.4537798935575001,
+      "b4p1000m": 1453.7798935575001
     },
-    {
-      "calculator": 2,
-      "laminate": "618",
-      "excelDefaultMode": "By Length",
-      "excelDefaultPrinting": "Printed",
-      "excelSellKg": 14.381295,
-      "excelLength": 32000.0,
-      "excelKg": 988.9984
+    "618_default": {
+      "meterEUR": 0.44447118391622625,
+      "b4p1000m": 444.47118391622627
     }
-  ],
-  "thicknessOptions": {
-    "821M": [
-      79.0
-    ],
-    "618": [
-      51,
-      56,
-      61,
-      66,
-      78,
-      86,
-      106
-    ],
-    "618 W": [
-      51,
-      56,
-      61,
-      66,
-      78,
-      86,
-      106
-    ],
-    "428": [
-      79.0
-    ],
-    "819": [
-      121.0
-    ],
-    "823": [
-      121.0
-    ]
   },
   "qrTarget": "https://bishmalovich-web.github.io/bio4pack-Laminates/",
-  "qrDecodeCheck": "PASS",
-  "brightModeFix": "Explicit light-mode text colors added for calculator panel, cards, values, final price, compare view, and readonly fields.",
-  "notPrintedLogic": "When Printing is Not Printed, colors and designs are disabled and ignored; calculation uses noPrintSellKg baseline and does not apply color/design/printing factor.",
-  "notPrintedRatioFallback": 0.8501359601372095,
-  "explicitNoPrintedBaselines": {
-    "821M": 14.47323007834502
-  },
-  "compareBrightMode": "Compare side-by-side panels now have explicit light-mode backgrounds, borders, and dark text.",
-  "passwordEye": "Replaced emoji eye with mobile-safe Show/Hide button using click and touchend handlers.",
-  "mobileCompare": "Narrow mobile width under 720px forces single calculator and hides Compare. Landscape/wide mobile 720px+ shows Compare.",
-  "cacheVersion": "bio4pack-mobile-safe-v4",
-  "cellphoneSymbols": "Removed emoji/special icons from all field labels for mobile compatibility."
+  "qrDecodeCheck": "PASS"
 }
