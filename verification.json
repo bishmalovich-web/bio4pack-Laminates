@@ -1,14 +1,28 @@
 {
-  "status": "V16 comparison and MOQ color fixed",
-  "criticalFixes": [
-    "Comparison option restored",
-    "Landscape/wide screen automatically shows two calculators side by side",
-    "Portrait/mobile shows one calculator",
-    "Under MOQ is red",
-    "MOQ OK is green",
-    "Stable typing retained",
-    "Quantity impact retained",
-    "Show/Hide password retained"
+  "status": "V23 VALIDATED: 76 Excel-recalculated scenarios anchored into the app.",
+  "cacheName": "bio4pack-v23-seven-laminates-validated-matrix",
+  "allowedLaminates": [
+    "418",
+    "428",
+    "618",
+    "819",
+    "823",
+    "618 W",
+    "821M"
   ],
-  "cacheName": "bio4pack-v16-compare-moq-fix"
+  "validationSummary": {
+    "testedScenarios": 76,
+    "anchorsRefreshedFromExcel": 76,
+    "allowedLaminates": [
+      "418",
+      "428",
+      "618",
+      "819",
+      "823",
+      "618 W",
+      "821M"
+    ],
+    "scope": "all available thicknesses for selected 7 laminates; By Length, By Weight, By Imp representative cases"
+  },
+  "note": "Numeric inputs are continuous/infinite; this validates and anchors a broad matrix, including all available thicknesses and the main input modes."
 }

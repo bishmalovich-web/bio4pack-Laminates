@@ -1,0 +1,14 @@
+{
+  "testedScenarios": 76,
+  "anchorsRefreshedFromExcel": 76,
+  "allowedLaminates": [
+    "418",
+    "428",
+    "618",
+    "819",
+    "823",
+    "618 W",
+    "821M"
+  ],
+  "scope": "all available thicknesses for selected 7 laminates; By Length, By Weight, By Imp representative cases"
+}

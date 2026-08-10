@@ -1,1 +1,1 @@
-BIO4PACK V16 - comparison restored and MOQ red/green fixed. Upload all files to GitHub root. Rotate to landscape or press Compare to show two calculators. Clear site data/PWA cache. Password Success2026.
+BIO4PACK V23 VALIDATED - GitHub upload package. Dropdown limited to 7 laminates. Excel validation matrix generated and all tested scenario outputs anchored directly from recalculated Excel. Password: Success2026. Clear cache/PWA after upload.
