@@ -1,1 +1,1 @@
-BIO4PACK V14 - dynamic calculation fixed. Width of Reel and Input Quantity update outputs live without stealing focus. Show/hide password included. Upload all files to GitHub root. Clear site data/PWA cache. Password Success2026.
+BIO4PACK V15 - quantity impact fixed. Input Quantity now impacts Sell Price / KG via MOQ/volume factor while typing remains stable. Upload every file to GitHub root and clear site data/PWA cache. Password Success2026.

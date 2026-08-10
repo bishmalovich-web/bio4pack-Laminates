@@ -1,12 +1,14 @@
 {
-  "status": "V14 dynamic calculation fixed",
+  "status": "V15 quantity impact fixed",
   "criticalFixes": [
-    "Width of Reel changes KG per meter, meter price, total, B4P and sell/kg fallback",
-    "Input Quantity changes length/kg/total immediately without re-rendering the form",
-    "Stable text typing retained",
+    "Input Quantity now impacts sell/kg in fallback calculations",
+    "Small quantities carry a surcharge; large quantities receive volume efficiency",
+    "Width of Reel still changes KG per meter, meter price, total, B4P and sell/kg fallback",
+    "Stable typing retained without re-rendering fields",
     "Show/Hide password retained"
   ],
-  "cacheName": "bio4pack-v14-dynamic-calculation-fixed",
+  "cacheName": "bio4pack-v15-quantity-impact-fixed",
   "fixedScenario": "618 W 78 width 420 Not Printed By Length 18150 -> Sell KG 11.86, Meter 0.507, B4P 507",
-  "formulaNote": "Fallback calculation now uses tiered lamination/slitting/printing rates, kg per meter from width, setup per kg for printed jobs, and width penalty."
+  "formulaNote": "Fallback calculation now uses tiered lamination/slitting/printing rates, kg per meter from width, setup per kg for printed jobs, and width penalty.",
+  "quantityImpactTest": "For the same laminate/width/mode, changing quantity from 1 kg to large volumes changes Sell Price / KG."
 }
