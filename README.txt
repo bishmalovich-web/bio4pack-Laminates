@@ -1,1 +1,1 @@
-BIO4PACK V15 - quantity impact fixed. Input Quantity now impacts Sell Price / KG via MOQ/volume factor while typing remains stable. Upload every file to GitHub root and clear site data/PWA cache. Password Success2026.
+BIO4PACK V16 - comparison restored and MOQ red/green fixed. Upload all files to GitHub root. Rotate to landscape or press Compare to show two calculators. Clear site data/PWA cache. Password Success2026.

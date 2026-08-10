@@ -1,14 +1,14 @@
 {
-  "status": "V15 quantity impact fixed",
+  "status": "V16 comparison and MOQ color fixed",
   "criticalFixes": [
-    "Input Quantity now impacts sell/kg in fallback calculations",
-    "Small quantities carry a surcharge; large quantities receive volume efficiency",
-    "Width of Reel still changes KG per meter, meter price, total, B4P and sell/kg fallback",
-    "Stable typing retained without re-rendering fields",
+    "Comparison option restored",
+    "Landscape/wide screen automatically shows two calculators side by side",
+    "Portrait/mobile shows one calculator",
+    "Under MOQ is red",
+    "MOQ OK is green",
+    "Stable typing retained",
+    "Quantity impact retained",
     "Show/Hide password retained"
   ],
-  "cacheName": "bio4pack-v15-quantity-impact-fixed",
-  "fixedScenario": "618 W 78 width 420 Not Printed By Length 18150 -> Sell KG 11.86, Meter 0.507, B4P 507",
-  "formulaNote": "Fallback calculation now uses tiered lamination/slitting/printing rates, kg per meter from width, setup per kg for printed jobs, and width penalty.",
-  "quantityImpactTest": "For the same laminate/width/mode, changing quantity from 1 kg to large volumes changes Sell Price / KG."
+  "cacheName": "bio4pack-v16-compare-moq-fix"
 }
