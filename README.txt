@@ -1,1 +1,1 @@
-BIO4PACK Excel Aligned V7. Upload all files to GitHub root. Password: Success2026. Exact anchors from the uploaded 6 calculator Excel: 618 W, 418, 428, 823, 821M, 819. Use validation report BIO4PACK_validation_6_calculators_V7.xlsx for PASS results.
+BIO4PACK V8 - fixed 618 W width 420 scenario. Upload all files to GitHub root. Password Success2026. Clear site data/PWA cache after upload.
