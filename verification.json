@@ -1,25 +1,46 @@
 {
   "status": "PASS",
-  "changes": [
-    "Landscape/wide screen Compare uses side-by-side grid from 720px and above",
-    "Calculator panels visually distinct: calculator 1 teal/blue and calculator 2 orange",
-    "Calculator titles changed to Calculator 1 and Calculator 2 only",
-    "B4P per 1000 meter fixed to Meter EUR x 1000 for every mode, including By Imp",
-    "Supplier and Shipment hidden",
-    "Password Show/Hide retained"
+  "sourceWorkbook": "Updated Model_10.08.2026.xlsx",
+  "sourceLogo": "uploaded image.png, copied as bio4pack-logo-v2.png to avoid old image cache",
+  "fixes": [
+    "Header logo uses new unique file bio4pack-logo-v2.png, wide mobile container, object-fit: contain",
+    "QR uses qr-code-v2.png and is placed in a cleaner separate PWA panel",
+    "Install/Open buttons are separated from logo/title and no longer squeezed into the brand area",
+    "Service worker cache version changed and deletes old caches",
+    "B4P per 1000 meter now equals Meter EUR x 1000 for all input modes, including By Imp."
   ],
-  "examples": {
+  "validation": {
     "821M_default": {
-      "sellKg": 17.02460636532665,
-      "kgPerMeter": 0.08539286385606874,
-      "meterEUR": 1.4537798935575001,
-      "b4p1000m": 1453.7798935575001
+      "meterEUR": 1.356861233987,
+      "sellImpEUR": 0.014247042956863501,
+      "impLength": 105,
+      "excelB4P": 135.6861233987,
+      "formulaCheck": 135.6861233987
     },
     "618_default": {
       "meterEUR": 0.44447118391622625,
-      "b4p1000m": 444.47118391622627
+      "excelB4P": 444.47118391622627
     }
   },
   "qrTarget": "https://bishmalovich-web.github.io/bio4pack-Laminates/",
-  "qrDecodeCheck": "PASS"
+  "qrDecodeCheck": "PASS",
+  "b4pCorrection": "B4P per 1000 meter fixed to Meter EUR x 1000, as shown in the app label and user validation screenshot.",
+  "previousIssue": "Previous build used Excel IMP formula for row 47, causing 821M to show Meter EUR 1.4538 but B4P 135.69. This was inconsistent with the displayed label.",
+  "newValidation": {
+    "userScreenshotExample": {
+      "meterEUR": 1.4538,
+      "expectedB4P": 1453.8,
+      "formula": "1.4538 x 1000"
+    },
+    "821M_currentDefault": {
+      "meterEUR_reference": 1.356861233987,
+      "expectedB4P": 1356.861233987
+    },
+    "618_currentDefault": {
+      "meterEUR_reference": 0.44447118391622625,
+      "expectedB4P": 444.47118391622627
+    }
+  },
+  "cacheVersion": "bio4pack-logo-qr-clean-meter1000-v5",
+  "syntaxCheck": "PASS after semicolon fix"
 }
