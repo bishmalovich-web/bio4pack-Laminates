@@ -1,12 +1,11 @@
 {
-  "status": "V10 text input fix",
-  "manualInputsUse": "type=text + inputmode=decimal, no number arrows/spinners",
-  "manualFields": [
-    "Width of Reel",
-    "Input Quantity",
-    "IMP Width",
-    "IMP Length",
-    "Additional Gross Profit"
+  "status": "V11 login UI fixed and text inputs retained",
+  "manualInputsUse": "type=text + inputmode=decimal, no arrows/spinners",
+  "loginFixes": [
+    "full-width unlock button",
+    "enter key unlock",
+    "focused password field",
+    "larger aligned login layout"
   ],
   "fixedScenario": "618 W 78 width 420 Not Printed By Length 18150 -> Sell KG 11.86, Meter 0.507, B4P 507"
 }
