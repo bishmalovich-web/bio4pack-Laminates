@@ -1,1 +1,1 @@
-BIO4PACK V13 - stable typing + show/hide password. Upload all files to GitHub root. This fixes one-number-at-a-time typing by updating results without re-rendering the form. Password Success2026. Clear site data/PWA after upload.
+BIO4PACK V14 - dynamic calculation fixed. Width of Reel and Input Quantity update outputs live without stealing focus. Show/hide password included. Upload all files to GitHub root. Clear site data/PWA cache. Password Success2026.
