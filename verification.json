@@ -1,10 +1,12 @@
 {
-  "status": "V9 fixed manual inputs and layout",
+  "status": "V10 text input fix",
+  "manualInputsUse": "type=text + inputmode=decimal, no number arrows/spinners",
   "manualFields": [
     "Width of Reel",
     "Input Quantity",
     "IMP Width",
-    "IMP Length"
+    "IMP Length",
+    "Additional Gross Profit"
   ],
   "fixedScenario": "618 W 78 width 420 Not Printed By Length 18150 -> Sell KG 11.86, Meter 0.507, B4P 507"
 }
