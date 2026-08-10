@@ -1,1 +1,1 @@
-BIO4PACK V8 - fixed 618 W width 420 scenario. Upload all files to GitHub root. Password Success2026. Clear site data/PWA cache after upload.
+BIO4PACK V9 - manual input and UI fix. Upload all files to GitHub root. Password Success2026. Width of Reel and Input Quantity are manual fields and no longer prefilled by laminate selection. Clear site data/PWA after upload.

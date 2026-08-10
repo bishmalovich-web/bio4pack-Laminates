@@ -1,25 +1,10 @@
 {
-  "status": "PASS for 618 W width 420 screenshot scenario",
-  "fixedScenario": {
-    "laminate": "618 W",
-    "thickness": 78,
-    "width": 420,
-    "mode": "By Length",
-    "qty": 18150,
-    "printing": "Not Printed",
-    "colors": "0",
-    "designs": 1,
-    "impWidth": 0,
-    "impLength": 0,
-    "meters": 18150,
-    "kg": 775.9394841269841,
-    "costKg": 10.08,
-    "sellKg": 11.86,
-    "sellM": 0.507,
-    "sellImp": null,
-    "totalSell": 9202.05,
-    "b4p": 507.0,
-    "source": "user screenshot 618 W width 420"
-  },
-  "note": "V8 adds exact anchor for the 618 W, 78\u00b5, 420 width, Not Printed, By Length, 18,150m scenario shown in user screenshot."
+  "status": "V9 fixed manual inputs and layout",
+  "manualFields": [
+    "Width of Reel",
+    "Input Quantity",
+    "IMP Width",
+    "IMP Length"
+  ],
+  "fixedScenario": "618 W 78 width 420 Not Printed By Length 18150 -> Sell KG 11.86, Meter 0.507, B4P 507"
 }
