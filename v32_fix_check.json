@@ -1,0 +1,18 @@
+{
+  "status": "V32 FINAL: mobile keyboard/focus fixed and pricing blocked until Width of Reel + Quantity are entered.",
+  "cacheName": "bio4pack-v32-final-mobile-keyboard-width-required",
+  "criticalFixes": [
+    "removed resize rerender while input is focused",
+    "manual input fields force focus on tap",
+    "pricing returns blank until Width of Reel and Quantity are filled",
+    "MOQ shows Enter Width of Reel and Quantity when missing"
+  ],
+  "retainedFixes": [
+    "Printing Plates note only when Printed",
+    "Compare toggle",
+    "Install button",
+    "logo/QR",
+    "7 laminates",
+    "validation files"
+  ]
+}

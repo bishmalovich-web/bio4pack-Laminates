@@ -1,13 +1,6 @@
 {
-  "status": "V31 FINAL: mobile Width/Input Quantity typing fix added.",
-  "cacheName": "bio4pack-v31-mobile-input-final",
-  "mobileInputFix": "Manual fields are type=tel with inputmode=decimal, pointer events forced on, and mobile prompt fallback if focus is blocked.",
-  "retainedFixes": [
-    "conditional printing plates note",
-    "compare toggle",
-    "install button",
-    "logo/QR",
-    "7 laminates",
-    "validation files"
-  ]
+  "status": "V33 FINAL: QR regenerated and V32 fixes retained.",
+  "siteUrl": "https://bishmalovich-web.github.io/bio4pack-Laminates/",
+  "qrUrl": "./qr-code-v16.png",
+  "cacheName": "bio4pack-v33-final-qr-confirmed"
 }
