@@ -1,1 +1,1 @@
-BIO4PACK V24 FINAL - fixed logo and QR paths, restricted laminates to 7 approved options, and improved mobile landscape compare mode. Password: Success2026. Clear browser/PWA cache after upload.
+BIO4PACK V25 FINAL - Compare toggle fixed, Install button added, logo/QR fixed, 7 laminates only. Password: Success2026. Clear cache/PWA after upload.

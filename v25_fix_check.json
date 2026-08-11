@@ -1,4 +1,12 @@
 {
+  "checks": [
+    "compare toggle fixed",
+    "install button added",
+    "service worker cache bumped",
+    "logo path fixed",
+    "QR path fixed",
+    "7 laminates only"
+  ],
   "status": "V25 FINAL: compare toggle fixed and PWA install button added.",
   "cacheName": "bio4pack-v25-final-install-compare",
   "logoUrl": "./bio4pack-logo-v16.png",
