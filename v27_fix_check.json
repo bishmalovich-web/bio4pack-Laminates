@@ -1,4 +1,13 @@
 {
+  "checks": [
+    "conditional printing plates note",
+    "INPUT tag",
+    "IMP HEIGHT label",
+    "login logo baseline cleanup",
+    "compare toggle fixed",
+    "install button added",
+    "cache bumped"
+  ],
   "status": "V27 FINAL: conditional printing plates note added; final visual and functional fixes retained.",
   "cacheName": "bio4pack-v27-final-printing-note",
   "conditionalNote": "Printing Plates note appears only when Printing = Printed.",
