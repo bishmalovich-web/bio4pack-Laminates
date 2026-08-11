@@ -1,1 +1,1 @@
-BIO4PACK V23 VALIDATED - GitHub upload package. Dropdown limited to 7 laminates. Excel validation matrix generated and all tested scenario outputs anchored directly from recalculated Excel. Password: Success2026. Clear cache/PWA after upload.
+BIO4PACK V24 FINAL - fixed logo and QR paths, restricted laminates to 7 approved options, and improved mobile landscape compare mode. Password: Success2026. Clear browser/PWA cache after upload.

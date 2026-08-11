@@ -1,4 +1,12 @@
 {
+  "checks": [
+    "logo path fixed",
+    "QR path fixed",
+    "laminateOrder restricted to 7",
+    "structures restricted to 7",
+    "mobile landscape compare CSS added",
+    "service worker cache bumped"
+  ],
   "status": "V24 FINAL: fixed logo/QR paths, restricted laminate list, improved mobile landscape compare mode.",
   "cacheName": "bio4pack-v24-final-logo-qr-compare",
   "logoUrl": "./bio4pack-logo-v16.png",
